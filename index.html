@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="container" id="container">
+    <section id="todo-app">
+        <h1>Todo Application</h1>
+        <input type="text" placeholder="Введите задачу">
+        <ul id="spisok" >
+            
+        </ul>
+        <div class="box">
+        <button id="save">Сохранить всё</button>
+        <button id="clear">Удалить всё</button>
+        <button onclick="show('block')">Информация о себе</button>
+    </div>
+        <div id="filter" onclick="show('none')"></div>
+        <div id="modal"><h3>Васеха Юрий Алексеевич</h3></div>
+    </section>
+
+    <script src="./script.js"></script>
+    <script src="./showTodo.js"></script>
+
+</body>
+</html>
